@@ -39,7 +39,7 @@ export default function Detect() {
       const formData = new FormData();
       formData.append("file", blob);
 
-      const res = await fetch("http://127.0.0.1:8000/predict", {
+      const res = await fetch("https://emotion-app-aqcx.onrender.com/predict", {
         method: "POST",
         body: formData
       });
