@@ -1,6 +1,0 @@
-streamlit==1.32.2
-opencv-python-headless==4.8.1.78
-tensorflow==2.10.1
-numpy==1.23.5
-streamlit-webrtc==0.47.1
-av

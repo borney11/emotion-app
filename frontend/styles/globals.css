@@ -1,0 +1,86 @@
+body {
+  margin: 0;
+  background: #020617;
+  color: white;
+  font-family: Arial, sans-serif;
+}
+
+/* Navbar */
+.nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 40px;
+}
+
+.nav-links a {
+  margin-left: 20px;
+  cursor: pointer;
+}
+
+/* Landing */
+.hero {
+  text-align: center;
+  margin-top: 120px;
+}
+
+.buttons button {
+  margin: 10px;
+  padding: 12px 20px;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+}
+
+.primary {
+  background: #22c55e;
+}
+
+.secondary {
+  background: #1e293b;
+  color: white;
+}
+
+/* Detect */
+.detect-container {
+  text-align: center;
+  margin-top: 40px;
+}
+
+.video {
+  width: 400px;
+  border-radius: 16px;
+}
+
+.card {
+  margin-top: 20px;
+  background: rgba(15, 23, 42, 0.9);
+  padding: 15px;
+  border-radius: 12px;
+  width: 200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.progress {
+  height: 8px;
+  background: #1e293b;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.progress-fill {
+  height: 100%;
+  background: linear-gradient(90deg, #22c55e, #4ade80);
+}
+
+/* Improve */
+.improve {
+  padding: 40px;
+}
+
+.tip-card {
+  background: #0f172a;
+  padding: 20px;
+  margin: 20px 0;
+  border-radius: 10px;
+}
